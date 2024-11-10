@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hotel Example</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <!-- En-tête -->
+        <header>
+            <div class="logo">
+                <h1>Hotel Example</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Chambres</a></li>
+                    <li><a href="#">Réservation</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <!-- Section de présentation -->
+        <section class="hero">
+            <h2>Bienvenue à notre hôtel</h2>
+            <p>Un endroit de détente et de confort pour vos vacances.</p>
+        </section>
+    
+        <!-- Section Chambres -->
+        <section class="rooms">
+            <h2>Nos Chambres</h2>
+            <div class="room-list">
+                <div class="room">
+                    <img src="room1.jpg" alt="Chambre 1">
+                    <h3>Chambre Standard</h3>
+                    <p>Confortable et bien équipée pour votre séjour.</p>
+                </div>
+                <div class="room">
+                    <img src="room2.jpg" alt="Chambre 2">
+                    <h3>Chambre Luxe</h3>
+                    <p>Spacieuse avec une vue magnifique sur la ville.</p>
+                </div>
+                <div class="room">
+                    <img src="room3.jpg" alt="Chambre 3">
+                    <h3>Chambre Suite</h3>
+                    <p>Le luxe ultime avec un grand espace et des équipements de qualité.</p>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Section Réservation -->
+        <section class="booking">
+            <h2>Réservez votre séjour</h2>
+            <form id="booking-form">
+                <label for="name">Nom</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="check-in">Date d'arrivée</label>
+                <input type="date" id="check-in" name="check-in" required>
+    
+                <label for="check-out">Date de départ</label>
+                <input type="date" id="check-out" name="check-out" required>
+    
+                <label for="room">Type de chambre</label>
+                <select id="room" name="room" required>
+                    <option value="standard">Chambre Standard</option>
+                    <option value="luxe">Chambre Luxe</option>
+                    <option value="suite">Chambre Suite</option>
+                </select>
+    
+                <button type="submit">Réserver</button>
+            </form>
+            <div id="confirmation-message" class="hidden">
+                <p>Votre réservation a été confirmée !</p>
+            </div>
+        </section>
+    
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2024 Hotel Example - Tous droits réservés</p>
+        </footer>
+    
+        <script src="script.js"></script>
+    </body>
+    </html> 
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
